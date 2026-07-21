@@ -1,0 +1,20 @@
+# Core
+numpy>=1.26
+pandas>=2.0
+scikit-learn>=1.4
+joblib>=1.3
+
+# Cheminformatics
+rdkit>=2023.9
+mordredcommunity>=2.0        # optional, only for the mordred2d/mordred3d representations
+
+# Gradient boosting
+xgboost>=2.0
+lightgbm>=4.0
+catboost>=1.2                # optional
+
+# Hyperparameter tuning
+optuna>=3.5
+
+# Web app
+streamlit>=1.30
